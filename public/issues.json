@@ -15,10 +15,10 @@
     "id": 3214846829,
     "number": 6,
     "title": "对 MemOS 的思考",
-    "body": "[MemOS](https://memos.openmem.net/) 让我想起《50 First Dates》这部老电影：女主每天记忆重置，像极了 LLM 每次新开对话窗口。男主则每天坚持不懈地与女主重新相识、相爱，通过录像、日记（plaintext memory）帮助女主回忆（用外部和结构化记忆不断维护和演进模型的“关系”）。故事最后，女主每晚都梦见男主，记忆内化成模型参数，两人最终走到一起。\n\n目前主流的记忆方案（mem0、zep、memobase 等）大多属于外部检索型记忆，而参数化记忆（如 SecondMe）则成本高、灵活性差。更容易被忽略的是参数化存储与外部检索之间的中间层——explicit memory。\n\n由于缺乏系统级的 memory 组织和操作机制，LLMs 难以在时间和空间中协调管理分布式信息。MemOS 的方案很有意思：\n\n- 明文 ➜ 激活：频繁使用的任务规则可转为激活模板，避免重复解码；\n- 激活 ➜ 参数：稳定的行为模式可被蒸馏为权重模块，提升调用效率；\n- 参数 ➜ 明文：低频的老旧知识可外化存储，便于审计和人工更新。\n\n\n<img width=\"1548\" height=\"696\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/00ac92f8-b68f-4070-84ee-cdfeb06ff9aa\" />",
+    "body": "[MemOS](https://memos.openmem.net/) 让我想起《50 First Dates》这部老电影：女主每天记忆重置，像极了 LLM 每次新开对话窗口。男主则每天坚持不懈地与女主重新相识、相爱，通过录像、日记（plaintext memory）帮助女主回忆（用外部和结构化记忆不断维护和演进模型的“关系”）。故事最后，女主每晚都梦见男主，记忆内化成模型参数，两人最终走到一起。\n\n目前主流的记忆方案（mem0、zep、memobase 等）大多属于外部检索型记忆，而参数化记忆（如 SecondMe）则成本高、灵活性差。更容易被忽略的是参数化存储与外部检索之间的中间层——explicit memory。\n\n由于缺乏系统级的 memory 组织和操作机制，LLMs 难以在时间和空间中协调管理分布式信息。MemOS 的方案很有意思：\n\n- 明文 ➜ 激活：频繁使用的任务规则可转为激活模板，避免重复解码；\n- 激活 ➜ 参数：稳定的行为模式可被蒸馏为权重模块，提升调用效率；\n- 参数 ➜ 明文：低频的老旧知识可外化存储，便于审计和人工更新。\n\n\n![Image](https://github.com/user-attachments/assets/00ac92f8-b68f-4070-84ee-cdfeb06ff9aa)",
     "url": "https://github.com/Penn-Lam/git-thoughts/issues/6",
     "created_at": "2025-07-09T07:28:46Z",
-    "updated_at": "2025-07-09T07:28:46Z",
+    "updated_at": "2025-07-09T16:41:35Z",
     "tags": [
       "Tech",
       "Work"
