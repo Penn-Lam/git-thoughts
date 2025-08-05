@@ -1,5 +1,18 @@
 [
   {
+    "id": 3292831531,
+    "number": 8,
+    "title": "记录一些学习资源",
+    "body": "前阵子谷歌开源的 [deep research](https://github.com/google-gemini/gemini-fullstack-langgraph-quickstart) 和 OpenAI 发布的[客服 Agent](https://github.com/openai/openai-cs-agents-demo)，还有一个印度小哥做的[医疗 Agent](https://github.com/jayrodge/ai-agents/tree/main) 都是一些不错的学习 multi-agent 的脚手架。\n它们的特点都是很轻量、易扩展，随便改改就是一个垂直领域的 Sass 模板，有空学习一下。\n[相关 note](https://x.com/frxiaobei/status/1937468659167015414)",
+    "url": "https://github.com/Penn-Lam/git-thoughts/issues/8",
+    "created_at": "2025-08-05T12:00:11Z",
+    "updated_at": "2025-08-05T12:00:11Z",
+    "tags": [
+      "Idea",
+      "Work"
+    ]
+  },
+  {
     "id": 3216525492,
     "number": 7,
     "title": "身体警告 ⚠️",
