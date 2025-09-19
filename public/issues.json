@@ -1,5 +1,19 @@
 [
   {
+    "id": 3434769715,
+    "number": 11,
+    "title": "How to be an [Aspiring] rationalists?",
+    "body": "> As opposed to beliefs being for signaling group affiliation and having pleasant feelings.\n\n盯着终端闪烁的光标发呆的时候，我突然想到了一个有趣的类比：[Aspiring] rationalist 就像是一个永远在调试的程序员。我们不断地重构自己的认知代码，每当遇到新的\"bug\"（错误信念），就会毫不犹豫地重写那部分逻辑。而那些固执己见的人，就像是拒绝更新的老旧系统，最终只能在兼容性问题中慢慢崩溃。\n\n最有趣的是，当我们承认\"我不知道\"的时候，其实是在给自己的认知系统留出了最大的扩展空间。正如 Eliezer Yudkowsky 追求的那种 [meta-honesty](https://www.facebook.com/yudkowsky/posts/10156161113669228) ——不是为了显得聪明而假装知道，而是为了真正学到东西而承认无知。\n\n也许真正的智慧，就是学会在不确定性中保持优雅的姿态。",
+    "url": "https://github.com/Penn-Lam/git-thoughts/issues/11",
+    "created_at": "2025-09-19T15:11:55Z",
+    "updated_at": "2025-09-19T15:11:55Z",
+    "tags": [
+      "Daily",
+      "Reflection",
+      "blog-post"
+    ]
+  },
+  {
     "id": 3367627983,
     "number": 10,
     "title": "GPT-5 时代民科根本站不住脚",
