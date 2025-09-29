@@ -1,5 +1,18 @@
 [
   {
+    "id": 3463673003,
+    "number": 13,
+    "title": "AItube UX 考量",
+    "body": "目前还比较纠结用户使用「AItube」获取对话记录的方式是通过用户自己输入共享链接（比如 [Twittershots](https://twittershots.com/) 那样），还是使用浏览器插件，如果是后者的话，我打算去学习一下 [Randy Lu](https://x.com/randyloop) 写的[《现代浏览器插件开发指南》](https://lutaonan.com/blog/browser-extension-development-guide/)",
+    "url": "https://github.com/Penn-Lam/git-thoughts/issues/13",
+    "created_at": "2025-09-29T07:44:06Z",
+    "updated_at": "2025-09-29T07:44:06Z",
+    "tags": [
+      "Reflection",
+      "Idea"
+    ]
+  },
+  {
     "id": 3434785898,
     "number": 12,
     "title": "“自我审查过强”的苦恼",
