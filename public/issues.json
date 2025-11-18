@@ -3,10 +3,10 @@
     "id": 3637428547,
     "number": 18,
     "title": "MAKER",
-    "body": "[MAKER](https://arxiv.org/abs/2511.09030)不是在吹蠢模型也能做大事，它本质是马斯克的工程哲学：把系统拆到最小、最可控的原子步骤，用架构而不是天才来对抗复杂性。\n\n但现实世界几乎没有这么干净、可形式化的微步骤可拆解，拆解本身往往比执行更难，这也是 CoT、ReAct 一直不稳的根因：它们仍然依赖 Transformer 的长上下文与 auto regressive 推理，天然会漂移、会累积错误。\n\nMAKER 验证了任务**马尔可夫化**的重要性，每步只看局部状态，把注意力窗口缩到最小，用投票去相关，把 Transformer 最脆弱的部分整个绕开。",
+    "body": "[MAKER](https://arxiv.org/abs/2511.09030)不是在吹蠢模型也能做大事，GPT4.1 已经够聪明了，它本质是马斯克的工程哲学：把系统拆到最小、最可控的原子步骤，用架构而不是天才来对抗复杂性。\n\n但现实世界几乎没有这么干净、可形式化的微步骤可拆解，拆解本身往往比执行更难，这也是 CoT、ReAct 一直不稳的根因：它们仍然依赖 Transformer 的长上下文与 auto regressive 推理，天然会漂移、会累积错误。\n\nMAKER 验证了任务**马尔可夫化**的重要性，每步只看局部状态，把注意力窗口缩到最小，用投票去相关，把 Transformer 最脆弱的部分整个绕开。",
     "url": "https://github.com/Penn-Lam/git-thoughts/issues/18",
     "created_at": "2025-11-18T10:43:39Z",
-    "updated_at": "2025-11-18T10:43:39Z",
+    "updated_at": "2025-11-18T10:48:08Z",
     "tags": [
       "Reflection",
       "blog-post"
